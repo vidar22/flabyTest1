@@ -1,0 +1,265 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-boxsizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.underline{
+	width: inherit;
+	height: 2px;
+	background-color: white;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+body{
+	background: #a4d5c0;
+}
+.menu{
+	font-size: 17px;
+	line-height: 60px;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: raleway;
+	text-align: right;
+}
+
+
+.headertext{
+	width: 540px;
+	height: 116px;
+	font-size: 26px;
+	line-height: 40px;
+	color: #fefefe;
+	font-weight: 500;
+	font-family: raleway;
+}
+
+.robotoslab{ 
+	font-family: roboto slab;
+}
+
+h1{
+	font-size: 40px;
+	line-height: 28px;
+	color: #fffefe;
+	font-family: museo Moderno;
+}
+h2{
+	font-size: 24px;
+	letter-spacing: 2px;
+	color: #494949;
+	font-weight: 400;
+	font-family: roboto slab;
+	text-align: center;
+}
+h3{
+	font-size: 22px;
+	color: #494949;
+	font-weight: 600;
+	font-family: raleway;
+}
+h4{
+	font-size: 18px;
+	line-height: 24px;
+	color: #7c7c7c;
+	font-weight: 400;
+	font-family: roboto slab;
+	text-align: center;
+}
+h5{
+	width: 220px;
+	height: 29px;
+	font-size: 20px;
+	line-height: 30px;
+	color: #494949;
+	font-weight: 700;
+	font-family: raleway;
+	text-align: center;
+}
+h6{
+	width: 220px;
+	height: 29px;
+	font-size: 15px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+}
+
+.nameourservices{
+	font-size: 18px;
+	color: #494949;
+	font-weight: 700;
+	font-family: raleway;
+	text-align: center;
+}
+.textourservices{
+	width: 309px;
+	height: 250px;/*Здесь была задана величина 82PX!!!*/
+	font-size: 14px;
+	line-height: 26px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+}
+.textcustomization{
+	width: 540px;
+	height: 82px;
+	font-size: 20px;
+	line-height: 32px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.section-UC-h3{
+	font-size: 22px;
+	color: #494949;
+	font-weight: 600;
+	font-family: raleway;
+}
+.section-UC-h2{
+	font-size: 32px;
+	color: #494949;
+	font-weight: 600;
+	font-family: raleway;
+}
+.section-UC-textLi{
+	width: 540px;
+	height: 12px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.otherservices-div3{
+	font-size: 18px;
+	color: #494949;
+	font-weight: 600;
+	font-family: raleway;
+}
+.otherservices-div4{
+	width: 261px;
+height: 113px;
+font-size: 14px;
+line-height: 26px;
+color: #7c7c7c;
+font-weight: 500;
+font-family: raleway;
+}
+.textsectionG-K-A{
+	width: 573px;
+	height: 109px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+}
+.sectionGR-h2{
+	font-size: 32px;
+	color: #494949;
+	font-weight: 600;
+	font-family: raleway;
+}
+.GR-p1{
+	width: 463px;
+	height: 82px;
+	font-size: 20px;
+	line-height: 32px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.GR-p2{
+	width: 445px;
+	height: 113px;
+	font-size: 14px;
+	line-height: 26px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.sectinPP-ul1{
+	font-size: 16px;
+	color: #494949;
+	font-weight: 700;
+	font-family: raleway;
+	text-align: center;
+}
+.li-fs16{
+	font-size: 16px;
+	line-height: 35px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+}
+.li-fs14{
+	font-size: 14px;
+	line-height: 32px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+}
+.footer-p{
+	font-size: 14px;
+	line-height: 28px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.footersection-ul1{
+	font-size: 20px;
+	color: #494949;
+	font-weight: 700;
+	font-family: raleway;
+}
+.footersection-ul2{
+	font-size: 14px;
+	line-height: 28px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
+.Copyright{
+	font-size: 14px;
+	line-height: 28px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+}
