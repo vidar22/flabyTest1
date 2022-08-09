@@ -1,3 +1,30 @@
+
+.head	{
+	background-color: green;
+}
+
+.logo{
+	display: inline-block;
+	margin-top: 45px;
+	margin-left: 245px;
+}
+
+.menu {
+
+	font-size: 17px;
+	font-weight: 600;
+	font-family: raleway;
+	word-spacing: 40px;
+	text-decoration: none;
+}
+.none{
+	text-decoration: none;
+	color: #ffffff;
+}
+.inline{
+		display: inline-block;
+}
+
 .button-blue
 {
 	display: inline-block;
@@ -9,51 +36,6 @@
 	height: 100px;
 }
 
-.nav-item {
-
-}
-
-#learn-more {
-	width: 50px;
-	height: 50px;
-}
-
-
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-*,*:before,*:after{
-	-moz-boxsizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-
-nav,footer,header,aside{display: block;}
-
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-}
-input,button,textarea{font-family:inherit;}
-
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding: 0;border: 0;}
-a, a:visited{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
-
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .underline{
 	width: inherit;
@@ -62,18 +44,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	margin-right: 100px;
 	margin-left: 100px;
 }
-body{
-	background: #a4d5c0;
-}
-.menu{
-	font-size: 17px;
-	line-height: 60px;
-	color: #ffffff;
-	font-weight: 600;
-	font-family: raleway;
-	text-align: right;
-}
-
 
 .headertext{
 	width: 540px;
