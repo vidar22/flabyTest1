@@ -1,0 +1,29 @@
+.button
+{
+    /* Center items (text of button) */
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text stilization */
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Raleway';
+    font-weight: 600;
+
+    /* Shape stilization */
+    border: 0 solid;
+	border-radius: 10px;
+
+    /* Default size */
+    background-color: antiquewhite;
+	width: 100px;
+	height: 100px;
+}
+
+.button.blue
+{
+	background: #479ee1;
+	width: auto;
+	height: auto;
+}
