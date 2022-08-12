@@ -1,6 +1,12 @@
+@font-face {
+    font-family: 'Raleway'; /*a name to be used later*/
+    src: url('../fonts/raleway/Raleway-VariableFont_wght.ttf'); /*URL to font*/
+}
+
 * {
 	margin: 0;
 	text-decoration: none;
+	font-family: 'Raleway';
 }
 
 html body {
@@ -58,26 +64,28 @@ h6{
 
 /*<!-- Head Section -->*/
 
-
-
-}
-
-.positionmenu{
 .head {
-	background-color: #42a8f6;
 	overflow: hidden;
 	position: relative;
 	height: 1024px;
 }
 
+.head * {
+    color: white;
 }
 
-.logo{
-	display: inline-block;
-	width: 168px;
-	height: 51px;
-	margin: 45px 0px 36px 245px;
+.positionmenu{
+	position: relative;
 
+}
+
+.divider{
+	width: inherit;
+	height: 1px;
+	background-color: white;
+	width: 1175px;
+	margin-left: 245px;
+	margin-top: 35px
 }
 
 .menu {
@@ -110,14 +118,6 @@ h6{
 
 }
 
-.underline{
-	width: inherit;
-	height: 2px;
-	background-color: white;
-	width: 1175px;
-	margin-left: 245px;
-	margin-top: 35px
-}
 
 .headerh1{
 	margin-top: 265px;
@@ -304,24 +304,3 @@ font-family: raleway;
 	font-weight: 500;
 	font-family: raleway;
 }
-
-
-
-
-
-
-
-
-
-
-.button-blue
-{
-	display: inline-block;
-	color: white;
-	background: blue;
-	border-style: solid;
-	border-radius: 5px;
-	width: 100px;
-	height: 100px;
-}
-
