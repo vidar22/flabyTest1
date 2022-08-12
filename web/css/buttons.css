@@ -7,8 +7,6 @@
 
     /* Text stilization */
     text-transform: uppercase;
-    text-align: center;
-    font-family: 'Raleway';
     font-weight: 600;
 
     /* Shape stilization */
@@ -24,5 +22,11 @@
 .button.blue
 {
 	background: #479ee1;
+    transition: .5s;
 }
+
+/* Add animation for button blue */
+.button.blue:hover
+{
+	background: #6bbaf9;
 }

@@ -9,7 +9,7 @@
 
 .header .right-content {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
@@ -17,20 +17,38 @@
     Navigation Menu
 */
 
-.header nav a {
-    text-transform: uppercase;
-}
-
-.header nav ul {
+.header nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
+    margin-right: 30px;
 }
 
 .header nav li {
-    margin: 10px 20px;
+    display: table;
+    padding: 0 20px;
     list-style: none;
+	border-radius: 10px;
+    transition: .5s;
 }
 
+.header nav a {
+    display: table-cell;
+    vertical-align: middle;
+
+    /* Text stilization */
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Animation*/
+.header nav li:hover {
+    background-color: #479ee1;
+}
+
+/*
+    Login button
+*/
 .header .button {
     width: 110px;
     height: 55px;
