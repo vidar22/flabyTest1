@@ -8,7 +8,9 @@
 	margin: 0 250px;
 }
 
-/*<!-- Head Section -->*/
+/*
+	Head Section
+*/
 
 .head {
 	overflow: hidden;
@@ -59,7 +61,6 @@
 	font-size: 20px;
 	line-height: 40px;
 }
-
 
 #google_play_btn { background-color: white; }
 #google_play_btn p { color: #3e3e3e; margin-left: 10px;}
