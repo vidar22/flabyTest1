@@ -1,65 +1,11 @@
-@font-face {
-    font-family: 'Raleway'; /*a name to be used later*/
-    src: url('../fonts/raleway/Raleway-VariableFont_wght.ttf'); /*URL to font*/
-}
-
 * {
 	margin: 0;
 	text-decoration: none;
 	font-family: 'Raleway';
 }
 
-html body {
-	width: 100%;
-	height: 100%;
-}
-h1{
-	font-size: 40px;
-	line-height: 28px;
-	color: #fffefe;
-	font-family: museo Moderno;
-}
-h2{
-	font-size: 24px;
-	letter-spacing: 2px;
-	color: #494949;
-	font-weight: 400;
-	font-family: roboto slab;
-	text-align: center;
-}
-h3{
-	font-size: 22px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-h4{
-	font-size: 18px;
-	line-height: 24px;
-	color: #7c7c7c;
-	font-weight: 400;
-	font-family: roboto slab;
-	text-align: center;
-}
-h5{
-	width: 220px;
-	height: 29px;
-	font-size: 20px;
-	line-height: 30px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-h6{
-	width: 220px;
-	height: 29px;
-	font-size: 15px;
-	line-height: 30px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
+.section-content {
+	margin: 0 250px;
 }
 
 /*<!-- Head Section -->*/
@@ -74,233 +20,46 @@ h6{
     color: white;
 }
 
-.positionmenu{
-	position: relative;
-
+.head .head-content {
+	max-width: 505px;
+	width: 50%;
+	margin-top: 250px;
+	margin-bottom: 200px;
 }
 
-.divider{
-	width: inherit;
-	height: 1px;
-	background-color: white;
-	width: 1175px;
-	margin-left: 245px;
-	margin-top: 35px
+.head h1 {
+	font-family: 'Museo Slab 300';
+	font-size: 40px;
+	margin-bottom: 40px;
+	min-width: 540px;
 }
 
-.menu {
-	display: inline-block;
-	font-size: 17px;
-	font-weight: 600;
-	font-family: raleway;
-	word-spacing: 40px;
-	text-decoration: none;
-	height: 12px;
-	margin-left: 260px;
-	margin-right: 35px;
-	position: absolute;
-	margin-top: 65px;
-
-}
-.none{
-	color: #ffffff;
-	text-decoration: none;
-
-}
-
-.buttonlogin{
-	display: inline-block;
-	width: 111px;
-	height: 56px;
-	position: absolute;
-	margin-top: 42px;
-	margin-left: 890px;
-
-}
-
-
-.headerh1{
-	margin-top: 265px;
-	margin-left: 245px;
-}
-
-.headertext{
-	display: inline-block;
-	width: 540px;
+.head h2 {
 	height: 116px;
 	font-size: 26px;
 	line-height: 40px;
 	color: #fefefe;
 	font-weight: 500;
-	font-family: raleway;
-	margin-top: 265px;
-	margin-left: 245px;
+	font-family: "Raleway";
+	margin-bottom: 80px;
 }
 
-.googleheader{
-	display: inline-block;
-	margin-top: 70px;
-	margin-left: 245px;
-
+.head .head-content .head-content-links{
+	min-width: 400px;
+	height: 80px;
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
 }
 
-.lernmoreheader{
-	display: inline-block;
-	margin-top: 70px;
-	margin-left: 25px;
-
-}
-
- /*<!-- Services Section -->*/
-
-.servicesh{
-
-
-}
-
-.nameourservices{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-.textourservices{
-	width: 309px;
-	height: 250px;/*Здесь была задана величина 82PX!!!*/
-	font-size: 14px;
-	line-height: 26px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.textcustomization{
-	width: 540px;
-	height: 82px;
+.head .head-content .button {
+	text-transform: capitalize;
+	width: 48%;
+	height: inherit;
 	font-size: 20px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
+	line-height: 40px;
 }
-.section-UC-h3{
-	font-size: 22px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.section-UC-h2{
-	font-size: 32px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.section-UC-textLi{
-	width: 540px;
-	height: 12px;
-	font-size: 14px;
-	line-height: 30px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.otherservices-div3{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.otherservices-div4{
-	width: 261px;
-height: 113px;
-font-size: 14px;
-line-height: 26px;
-color: #7c7c7c;
-font-weight: 500;
-font-family: raleway;
-}
-.textsectionG-K-A{
-	width: 573px;
-	height: 109px;
-	font-size: 18px;
-	line-height: 30px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.sectionGR-h2{
-	font-size: 32px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.GR-p1{
-	width: 463px;
-	height: 82px;
-	font-size: 20px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.GR-p2{
-	width: 445px;
-	height: 113px;
-	font-size: 14px;
-	line-height: 26px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.sectinPP-ul1{
-	font-size: 16px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-.li-fs16{
-	font-size: 16px;
-	line-height: 35px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.li-fs14{
-	font-size: 14px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.footer-p{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.footersection-ul1{
-	font-size: 20px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-}
-.footersection-ul2{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.Copyright{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
+
+
+#google_play_btn { background-color: white; }
+#google_play_btn p { color: #3e3e3e; margin-left: 10px;}

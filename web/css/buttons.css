@@ -1,7 +1,7 @@
 .button
 {
     /* Center items (text of button) */
-	display: flex;
+	display: inline-flex;
     justify-content: center;
     align-items: center;
 
@@ -14,7 +14,8 @@
 	border-radius: 10px;
 
     /* Default size */
-    background-color: antiquewhite;
+    background-color: grey;
+    color: white;
 	width: 100px;
 	height: 100px;
 }
