@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Raleway'; /*a name to be used later*/
+    src: url('../fonts/raleway/Raleway-VariableFont_wght.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 100'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-100.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 300'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-300.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 500'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-500.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 700'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-700.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 900'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-900.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Museo Slab 1000'; /*a name to be used later*/
+    src: url('../fonts/mus/MuseoSlab-1000.ttf'); /*URL to font*/
+}

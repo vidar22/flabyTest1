@@ -1,0 +1,19 @@
+/*<!-- Head Section -->*/
+
+header	{
+
+	background-image: url('../img/0header/headphones.png') ,url('../img/0header/pencils.png'),url('../img/0header/iphone.png'),url('../img/0header/earphones.png'),url('../img/0header/bgheader.png');
+	background-repeat: no-repeat;
+	background-position:0 0, 0 100%, 895px 260px,100% 65% ;
+	background-size: 220px 365px, auto, auto, auto, 100%;
+}
+
+
+.services{
+	background-image: url('../img/1OurServises/photography.png');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: auto ;
+
+}
+
