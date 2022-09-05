@@ -1,0 +1,100 @@
+
+/*<!-- Services Section -->*/
+
+.services{
+	margin-top: 100px;
+
+}
+.dividor{
+	display: flex;
+	justify-content: center;
+}
+.imgservices{
+	margin-left: 100px;
+}
+.imgsize1{
+	margin-left: 100px;
+	width: 105px;
+	height: 105px;
+}
+.imgsize2{
+	margin-left: 100px;
+	width: 110px;
+	height: 85px;
+}
+.services-content{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 100px;
+	margin-top: 125px;
+	margin-right: 100px;
+	margin-bottom: 170px;
+}
+.development{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.photography{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+
+}
+.artist{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+
+}
+.paragraph-services{
+	width: 309px;
+	height: 82px;
+	font-size: 14px;
+	margin: 0;
+	line-height: 26px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nameourservices{
+	font-size: 18px;
+	color: #494949;
+	font-weight: 700;
+	font-family: raleway;
+	text-align: center;
+
+}
+.textourservices{
+	width: 309px;
+	height: 250px;/*Здесь была задана величина 82PX!!!*/
+	font-size: 14px;
+	line-height: 26px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+	text-align: center;
+
+}

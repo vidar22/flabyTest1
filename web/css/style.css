@@ -3,6 +3,7 @@ html body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
+
 }
 h1{
 	font-size: 40px;
@@ -55,33 +56,10 @@ h6{
 	text-align: center;
 }
 
-.dividor{
-	margin-left: 50%;
-}
-/*<!-- Services Section -->*/
-
-.services{
 
 
-}
 
-.nameourservices{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-.textourservices{
-	width: 309px;
-	height: 250px;/*Здесь была задана величина 82PX!!!*/
-	font-size: 14px;
-	line-height: 26px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
+
 .textcustomization{
 	width: 540px;
 	height: 82px;
@@ -90,18 +68,21 @@ h6{
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .section-UC-h3{
 	font-size: 22px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+
 }
 .section-UC-h2{
 	font-size: 32px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+
 }
 .section-UC-textLi{
 	width: 540px;
@@ -111,12 +92,14 @@ h6{
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .otherservices-div3{
 	font-size: 18px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+
 }
 .otherservices-div4{
 	width: 261px;
@@ -126,6 +109,7 @@ line-height: 26px;
 color: #7c7c7c;
 font-weight: 500;
 font-family: raleway;
+
 }
 .textsectionG-K-A{
 	width: 573px;
@@ -136,12 +120,14 @@ font-family: raleway;
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
+
 }
 .sectionGR-h2{
 	font-size: 32px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+
 }
 .GR-p1{
 	width: 463px;
@@ -151,6 +137,7 @@ font-family: raleway;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .GR-p2{
 	width: 445px;
@@ -160,6 +147,7 @@ font-family: raleway;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .sectinPP-ul1{
 	font-size: 16px;
@@ -167,6 +155,7 @@ font-family: raleway;
 	font-weight: 700;
 	font-family: raleway;
 	text-align: center;
+
 }
 .li-fs16{
 	font-size: 16px;
@@ -175,6 +164,7 @@ font-family: raleway;
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
+
 }
 .li-fs14{
 	font-size: 14px;
@@ -183,6 +173,7 @@ font-family: raleway;
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
+
 }
 .footer-p{
 	font-size: 14px;
@@ -190,12 +181,14 @@ font-family: raleway;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .footersection-ul1{
 	font-size: 20px;
 	color: #494949;
 	font-weight: 700;
 	font-family: raleway;
+
 }
 .footersection-ul2{
 	font-size: 14px;
@@ -203,6 +196,7 @@ font-family: raleway;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 .Copyright{
 	font-size: 14px;
@@ -210,6 +204,7 @@ font-family: raleway;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
+
 }
 
 
