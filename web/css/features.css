@@ -1,0 +1,56 @@
+.features{
+	display: flex;
+	justify-content: flex-start;
+
+
+}
+.phones{
+	margin-top: 120px;
+	margin-bottom: 115px;
+
+}
+.h3features{
+	margin-bottom: 0px;
+	font-size: 22px;
+	color: #494949;
+	font-weight: 600;
+	font-family: "Raleway";
+}
+.p1features{
+	font-size: 32px;
+	color: #494949;
+	font-weight: 600;
+	font-family: "Raleway";
+}
+.p2features{
+	font-size: 20px;
+	line-height: 32px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: "Raleway";	
+}
+.featurescontent{
+	margin-top: 140px;
+	margin-left: 270px;
+
+}
+.featureslist{
+	width: 400px;
+	font-size: 14px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: raleway;
+    list-style-type: none;
+	padding-left: 0px;
+
+}
+.featureslist li{
+	background: url('../img/2UnlimitedCustomizationFeatures/list point.png') left no-repeat;
+	padding-left: 30px;
+}
+.buttonreadmore{
+	width: 150px;
+	height: 50px;
+	margin-left: -20px;
+}
