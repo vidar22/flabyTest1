@@ -51,7 +51,10 @@ h6{
 	font-family: raleway;
 	text-align: center;
 }
-
+.dividor{
+	display: flex;
+	justify-content: center;
+}
 
 
 

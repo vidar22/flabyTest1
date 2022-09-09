@@ -1,0 +1,88 @@
+.otherservices{
+	width: 100%;
+	height: 750px;
+}
+.otherservicescontent{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	justify-content: space-around;
+
+}
+.content-flex{
+	width: 350px;
+	height: 150px;
+
+}
+.content-p{
+	margin-top: 0px;
+	margin-left: 60px;
+
+}
+.developing{
+	width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/ideadeveloping.png') left no-repeat;
+
+}
+.coding{
+	width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/bestcoding.png') left no-repeat;	
+
+}
+.gamedesign{
+	width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/gamedesign.png') left no-repeat;	
+
+}
+.responsivedesign{
+		width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/responsivedesign.png') left no-repeat;	
+
+}
+.freeshopping{
+		width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/freeshopping.png') left no-repeat;	
+
+}
+.bonusdownload{
+		width: 330px;
+	height: 50px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 0px;
+	margin: 0px;
+	list-style-type: none;
+	background: url('../img/3otherServices/bonusdownload.png') left no-repeat;	
+
+}
