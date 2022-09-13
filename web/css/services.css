@@ -1,9 +1,7 @@
 
 /*<!-- Services Section -->*/
-
 .services{
 	margin-top: 100px;
-
 }
 .imgservices{
 	margin-left: 100px;
@@ -21,6 +19,7 @@
 .services-content{
 	display: flex;
 	justify-content: space-around;
+	align-content: center;
 	margin-left: 100px;
 	margin-top: 125px;
 	margin-right: 100px;

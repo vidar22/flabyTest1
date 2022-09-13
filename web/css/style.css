@@ -12,6 +12,7 @@ h1{
 	font-family: MuseoSlab;
 	word-spacing: 10px;
 	text-transform: uppercase;
+
 }
 h2{
 	font-size: 24px;
@@ -20,12 +21,14 @@ h2{
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+
 }
 h3{
 	font-size: 22px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+
 }
 h4{
 	font-size: 18px;
@@ -34,6 +37,7 @@ h4{
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+
 }
 h5{
 	font-size: 20px;
@@ -42,6 +46,7 @@ h5{
 	font-weight: 700;
 	font-family: raleway;
 	text-align: center;
+
 }
 h6{
 	font-size: 15px;
@@ -50,33 +55,37 @@ h6{
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
-}
-.dividor{
-	display: flex;
-	justify-content: center;
-}
-
-
-
-
-
-.otherservices-div3{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
 
 }
-.otherservices-div4{
-	width: 261px;
-height: 113px;
-font-size: 14px;
-line-height: 26px;
-color: #7c7c7c;
-font-weight: 500;
-font-family: raleway;
+.dividorhorizontal{
+	margin-left: auto;
+	margin-right: auto;
+	width: 28px;
+	height: 1px;
+	color: #2eafeb;
+	border: 1px solid;
+	background-color: #2eafeb;
 
 }
+.innner-content{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+
+
+.none{
+	display: none;
+}
+
+/*
+
+
+
+
+
+
 .textsectionG-K-A{
 	width: 573px;
 	height: 109px;

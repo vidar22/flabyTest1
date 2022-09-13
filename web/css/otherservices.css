@@ -1,6 +1,11 @@
 .otherservices{
 	width: 100%;
 	height: 750px;
+
+}
+.otherservices-main-div{
+	margin-top: 100px;
+
 }
 .otherservicescontent{
 	margin-left: 100px;
@@ -30,8 +35,10 @@
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: "Raleway";
+	padding-left: 60px;
+
 }
-.developing{
+.otherservicescontent ul {
 	width: 330px;
 	height: 50px;
 	padding: 10px;
@@ -39,61 +46,11 @@
 	padding-left: 0px;
 	margin: 0px;
 	list-style-type: none;
-	background: url('../img/3otherServices/ideadeveloping.png') left no-repeat;
 
 }
-.coding{
-	width: 330px;
-	height: 50px;
-	padding: 10px;
-	padding-top: 5px;
-	padding-left: 0px;
-	margin: 0px;
-	list-style-type: none;
-	background: url('../img/3otherServices/bestcoding.png') left no-repeat;	
-
-}
-.gamedesign{
-	width: 330px;
-	height: 50px;
-	padding: 10px;
-	padding-top: 5px;
-	padding-left: 0px;
-	margin: 0px;
-	list-style-type: none;
-	background: url('../img/3otherServices/gamedesign.png') left no-repeat;	
-
-}
-.responsivedesign{
-		width: 330px;
-	height: 50px;
-	padding: 10px;
-	padding-top: 5px;
-	padding-left: 0px;
-	margin: 0px;
-	list-style-type: none;
-	background: url('../img/3otherServices/responsivedesign.png') left no-repeat;	
-
-}
-.freeshopping{
-		width: 330px;
-	height: 50px;
-	padding: 10px;
-	padding-top: 5px;
-	padding-left: 0px;
-	margin: 0px;
-	list-style-type: none;
-	background: url('../img/3otherServices/freeshopping.png') left no-repeat;	
-
-}
-.bonusdownload{
-		width: 330px;
-	height: 50px;
-	padding: 10px;
-	padding-top: 5px;
-	padding-left: 0px;
-	margin: 0px;
-	list-style-type: none;
-	background: url('../img/3otherServices/bonusdownload.png') left no-repeat;	
-
-}
+.developing{ background: url('../img/3otherServices/ideadeveloping.png') left no-repeat; }
+.coding{ background: url('../img/3otherServices/bestcoding.png') left no-repeat; }
+.gamedesign{ background: url('../img/3otherServices/gamedesign.png') left no-repeat; }
+.responsivedesign{ background: url('../img/3otherServices/responsivedesign.png') left no-repeat; }
+.freeshopping { background: url('../img/3otherServices/freeshopping.png') left no-repeat; }
+.bonusdownload { background: url('../img/3otherServices/bonusdownload.png') left no-repeat; }
