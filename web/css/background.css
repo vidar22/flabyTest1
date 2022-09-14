@@ -13,3 +13,9 @@ header	{
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }
+.reviews{
+	background-image: url('../img/4reviews/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}

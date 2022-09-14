@@ -17,10 +17,12 @@ h1{
 h2{
 	font-size: 24px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 	color: #494949;
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+	margin: 0px;
 
 }
 h3{
@@ -28,6 +30,7 @@ h3{
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+	margin: 0px;
 
 }
 h4{
@@ -37,6 +40,7 @@ h4{
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+	margin: 0px;
 
 }
 h5{
@@ -46,7 +50,7 @@ h5{
 	font-weight: 700;
 	font-family: raleway;
 	text-align: center;
-
+	margin: 0px;
 }
 h6{
 	font-size: 15px;
@@ -55,9 +59,10 @@ h6{
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
-
+	margin: 0px;
 }
 .dividorhorizontal{
+	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 28px;
