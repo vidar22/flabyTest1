@@ -1,35 +1,35 @@
 
 /*<!-- Services Section -->*/
 .services{
-	margin-top: 100px;
-}
-.imgservices{
-	margin-left: 100px;
+	margin-top: 55px;
+
 }
 .imgsize1{
 	margin-left: 100px;
 	width: 105px;
 	height: 105px;
+	
 }
 .imgsize2{
 	margin-left: 100px;
 	width: 110px;
 	height: 85px;
+
 }
 .services-content{
 	display: flex;
 	justify-content: space-around;
 	align-content: center;
-	margin-left: 100px;
 	margin-top: 125px;
-	margin-right: 100px;
 	margin-bottom: 170px;
+
 }
 .development{
 	margin-top: 40px;
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: bold;
+
 }
 .photography{
 	margin-top: 60px;
