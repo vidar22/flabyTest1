@@ -27,3 +27,10 @@ header	{
 	background-size: 665px 550px, 100%;
 
 }
+.price{
+	background-color: #F4FBFC;
+	background-image: url('../img/6price/bg.png');
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size:100%;
+}
