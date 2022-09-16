@@ -51,6 +51,7 @@ h5{
 	font-family: raleway;
 	text-align: center;
 	margin: 0px;
+	
 }
 h6{
 	font-size: 15px;
@@ -60,6 +61,7 @@ h6{
 	font-family: raleway;
 	text-align: center;
 	margin: 0px;
+
 }
 .dividorhorizontal{
 	margin-top: 20px;
@@ -76,11 +78,4 @@ h6{
 	margin-left: 100px;
 	margin-right: 100px;
 
-}
-
-
-
-
-.none{
-	display: none;
 }
