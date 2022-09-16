@@ -1,3 +1,5 @@
+/* HERE ONLY GLOBAL STYLES */
+
 * {
 	margin: 0;
 	text-decoration: none;
@@ -6,60 +8,6 @@
 
 .section-content {
 	margin: 0 250px;
-}
-
-/*
-	Head Section
-*/
-
-.head {
-	overflow: hidden;
-	position: relative;
-	height: 1024px;
-}
-
-.head * {
-    color: white;
-}
-
-.head .head-content {
-	max-width: 505px;
-	width: 50%;
-	margin-top: 250px;
-	margin-bottom: 200px;
-}
-
-.head h1 {
-	font-family: 'Museo Slab 300';
-	font-size: 40px;
-	margin-bottom: 40px;
-	min-width: 540px;
-}
-
-.head h2 {
-	height: 116px;
-	font-size: 26px;
-	line-height: 40px;
-	color: #fefefe;
-	font-weight: 500;
-	font-family: "Raleway";
-	margin-bottom: 80px;
-}
-
-.head .head-content .head-content-links{
-	min-width: 400px;
-	height: 80px;
-	display: flex;
-	align-items: stretch;
-	justify-content: space-between;
-}
-
-.head .head-content .button {
-	text-transform: capitalize;
-	width: 48%;
-	height: inherit;
-	font-size: 20px;
-	line-height: 40px;
 }
 
 #google_play_btn { background-color: white; }

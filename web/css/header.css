@@ -1,37 +1,78 @@
-.header {
-	padding: 40px 0px;
-	border-bottom: 1px solid white;
+/* First of all, make all text in header white*/
+header * {
+    color: white;
+}
+
+header {
+    /* Make position relative for background items*/
+	position: relative;
+    /* Hide outside parts of circles and other background items*/
+	overflow: hidden;
+}
+
+
+/*#region Header Navigation Menu*/
+
+/* Set style for main container of navigation menu */
+.header-nav {
     display: flex;
+    overflow: visible;
+    /* Align center vertically */
     align-items: center;
+    /* Align space between horizontally */
     justify-content: space-between;
+    /* Set padding to top and bottom*/
+	padding: 40px 0px;
+    /* Make your underline xD*/
+	border-bottom: 1px solid white;
 }
 
-.header .right-content {
+/* Set navigation items list AND login button in one line*/
+.header-nav .right-content {
     display: flex;
-    align-items: stretch;
-    justify-content: center;
+    /* Make it no wrap */
+    flex-wrap: nowrap;
 }
 
-/*
-    Navigation Menu
+/* Set login button size */
+.header-nav .button { width: 110px; height: 55px; }
+
+/* 
+    Navigation list and list items
 */
 
-.header nav {
+/* Set style for navigation list items container*/
+.header-nav nav {
     display: flex;
+    /* Wrap items when size of nav becomes smaller */
     flex-wrap: wrap;
-    align-items: stretch;
+    /* Make margin from login button */
     margin-right: 30px;
 }
 
-.header nav li {
+/*  So, here i use oldfag method to centerize xDD 
+    Set style for each list item (container for a link)  */
+.header-nav nav li {
+    /* Here display table, for making a as table-cell, so table-cell will works */
     display: table;
-    padding: 0 20px;
+    /* Clear list style */
     list-style: none;
+    /* Make padding for left and right */
+    padding: 0 20px;
+    /* Create border radius (beautify) */
 	border-radius: 10px;
-    transition: .5s;
+    /* Animation duration (s - in seconds) */
+    transition: 0.5s;
+}
+/* When list item is mouse overed */
+.header-nav nav li:hover {
+    /* Make only background color change */
+    background-color: #479ee1;
 }
 
-.header nav a {
+/* And link done */
+.header-nav nav a {
+    /* So, it's old school centerize method xD */
     display: table-cell;
     vertical-align: middle;
 
@@ -40,24 +81,68 @@
     font-weight: 600;
 }
 
-/* Animation*/
-.header nav li:hover {
-    background-color: #479ee1;
+/*#endregion*/
+
+/*#region Header Content*/
+
+/* Main header content container */
+header .header-content {
+    /* Set width like half of header section, but... */
+	width: 50%;
+    /* ...but not greather than 505px */
+	max-width: 505px;
+    /* Make margin from navigation menu */
+	margin-top: 250px;
+    /* Make margin from bottom of content container*/
+	margin-bottom: 200px;
 }
 
-/*
-    Login button
-*/
-.header .button {
-    width: 110px;
-    height: 55px;
+/* Style h1 text block */
+header h1 {
+	font-family: 'Museo Slab 300';
+	font-size: 40px;
+    /* Don't wrap this words*/
+    white-space: nowrap;
+    /* Margin to next block */
+	margin-bottom: 40px;
 }
 
-/*
-    Background
-*/
+/* Style h2 text block */
+header h2 {
+	font-size: 26px;
+	line-height: 40px;
+	color: #fefefe;
+	font-weight: 500;
+    /* Margin to next block */
+	margin-bottom: 80px;
+}
 
-.head > .background {
+/* Container for buttons */
+header .header-content-links{
+    /* Make minimum width for don't breaking buttons*/
+	min-width: 400px;
+    /* Make height for buttons */
+	height: 80px;
+    /* Make space between buttons */
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Set width and style text of buttons */
+header .header-content .button {
+    /* Set width like 48% of links container */
+	width: 48%;
+    /* Make each word capital */
+	text-transform: capitalize;
+    /* Correct font size */
+	font-size: 20px;
+}
+
+/*#endregion*/
+
+/*#region Background*/
+
+header > .background {
     /* Stretch it to the full size of the parent (section)*/
 	position: absolute;
 	width: 100%;
@@ -68,27 +153,27 @@
 	background-color: #42a8f6;
 }
 
-.head > .background * {
+header > .background * {
     /* Set all bg elements non-selectable for user */
     user-select: none;
     /* Now we can dock elements*/
     position: absolute;
 }
 
-.head > .background .pencil1-img {
+header > .background .pencil1-img {
     /* Dock first pencil to the bottom*/
     bottom: 0px;
     /* Little fix margin */
     margin-bottom: 150px;
 }
 
-.head > .background .pencil2-img {
+header > .background .pencil2-img {
     /* Same as pencil 1*/
     bottom: 0px;
     margin-bottom: 50px;
 }
 
-.head > .background .phone-img {
+header > .background .phone-img {
     /* Dock to the right bottom*/
     right: 0px;
     bottom: 0px;
@@ -97,21 +182,21 @@
     margin-bottom: -284px;
 }
 
-.head > .background .earphones-img {
+header > .background .earphones-img {
     /* Dock to right bottom,
     but we can use bottom instead of margin*/
     right: 0px;
     bottom: 150px;
 }
 
-.head > .background .headphone-img {
+header > .background .headphone-img {
     /* This element already docked to left top */
 	margin: -35px 0 0 -165px;
 }
 
 /* Background Circles */
 
-.head .circle-outer {
+header .circle-outer {
     /* Set size like in photopea */
     width: 1670px;
     height: 1670px;
@@ -125,31 +210,32 @@
 }
 
 /* Make all circles as flex-containers with centerized items */
-.head .circle-outer,
-.head .circle-outer * {
+header .circle-outer,
+header .circle-outer * {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 /* And set correct sizes, radiuses and colors */
-.head .circle-middle { 
+header .circle-middle { 
     width: 1232px;
     height: 1232px;
     border-radius: 616px;
     background-color: #5eb4f8;
 }
 
-.head .circle-inner {
+header .circle-inner {
     width: 898px;
     height: 898px;
     border-radius: 449px;
     background-color: #6bbaf9;
 }
 
-.head .circle-center {
+header .circle-center {
     width: 628px;
     height: 628px;
     border-radius: 314px;
     background-color: #77bff9;
 }
+/*#endregion*/
