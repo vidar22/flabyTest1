@@ -1,0 +1,31 @@
+/*
+    Services container
+*/
+.services-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.services-flex > * {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* Style image wrapper */
+.services-flex .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.services-flex h2 {
+    color: #494949;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}

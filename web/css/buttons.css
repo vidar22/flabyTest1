@@ -8,6 +8,8 @@
     /* Text stilization */
     text-transform: uppercase;
     font-weight: 600;
+    user-select: none;
+    -webkit-user-drag: none;
 
     /* Shape stilization */
     border: 0 solid;
@@ -18,14 +20,32 @@
     color: white;
 }
 
+/*
+    Blue button
+*/
 .button.blue
 {
 	background: #479ee1;
     transition: .5s;
 }
-
 /* Add animation for button blue */
 .button.blue:hover
 {
 	background: #6bbaf9;
 }
+
+/*
+    Google play button
+*/
+/* Make style for google play button */
+.button.google-play {
+	background-color: white; 
+    /* Google play icon */
+    background-image: url('../img/0_header/google_play_icon.png');
+    background-repeat: no-repeat;
+    background-position: 30px 50%;
+	/* Drop shadow */
+	filter: drop-shadow(0px 8px 5.5px rgba(54,54,54,0.15));
+}
+/* Google play button text*/
+.button.google-play p { color: #3e3e3e; margin-left: 30px;}
