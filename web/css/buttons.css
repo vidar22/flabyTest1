@@ -9,7 +9,6 @@
     text-transform: uppercase;
     font-weight: 600;
     user-select: none;
-    -webkit-user-drag: none;
 
     /* Shape stilization */
     border: 0 solid;
@@ -18,6 +17,27 @@
     /* Default size */
     background-color: grey;
     color: white;
+
+    /* Default buttons transition */
+    transition: .5s;
+}
+
+/*
+    Main button
+*/
+.button.main {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #66d4f4;
+}
+.button.main.selected {
+    filter: drop-shadow(0px 10px 8px rgba(102,212,244,0.3));
+}
+/* Mouse over state */
+.button.main:hover {
+    background-color: #a0e4f8;
+    filter: drop-shadow(0px 0px 8px rgba(102,212,244,1));
 }
 
 /*
@@ -26,7 +46,6 @@
 .button.blue
 {
 	background: #479ee1;
-    transition: .5s;
 }
 /* Add animation for button blue */
 .button.blue:hover
@@ -48,4 +67,8 @@
 	filter: drop-shadow(0px 8px 5.5px rgba(54,54,54,0.15));
 }
 /* Google play button text*/
-.button.google-play p { color: #3e3e3e; margin-left: 30px;}
+.button.google-play p { 
+    font-size: 20px;
+    color: #3e3e3e; 
+    margin-left: 30px;
+}

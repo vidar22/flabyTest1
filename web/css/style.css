@@ -5,20 +5,80 @@
 	text-decoration: none;
 	font-family: 'Raleway';
 }
+/* All backgrounds cannot be selected by user */
+.background { user-select: none; }
 
-/* For inner section's content */
+/* Inner content of all sections (+ header, footer) */
 .section-content {
 	margin: 0 250px;
+    position: relative;
 }
 
+/* Global h1 style */
+h1 {
+    color: #494949;
+    font-size: 32px;
+    font-weight: 600;   
+}
 /* Global paragraph style */
-p {
+p, li {
     color: #7c7c7c;
     font-size: 14px;
     font-weight: 500;
     line-height: 26px;
 }
+p.before-h1 {
+    font-size: 22px;
+    color: #b3b3b4;
+    margin-bottom: 20px;
+}
+p.after-h1 {
+    font-size: 20px;
+    line-height: 32px;
+    color: #7c7c7c;
+    font-weight: 500;
+    margin-top: 20px;
+}
 
+/*#region ul and ul li*/
+/* 
+    Global unordered list style 
+*/
+/* Clear ul style */
+ul { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+/* Set image for list poit of list item */
+ul li {
+    /* List point */
+    background-image: url("../img/2_features/list-point.png");
+    background-repeat: no-repeat;
+    background-position: 0px 3px;
+    /*Padding for point*/
+    padding-left: 30px;
+    /* Margin between items */
+    margin: 10px 0;
+}
+/* Remove margins of first and last childs of list*/
+ul li:first-child { margin-top: 0; }
+ul li:last-child { margin-bottom: 0; }
+/*#endregion*/
+
+/*#region half-content*/
+/*
+    Global half content style
+*/
+/* Set size as half of parent */
+.half-content-r, .half-content-l{ width: 50%; }
+.half-content-r { float: right; }
+.half-content-l { float: left; }
+/* Set padding of half contents */
+.half-content-r > *, .half-content-l > * { margin: 0 15px;}
+/*#endregion*/
+
+/*#region section-header*/
 /* 
 	Global section header style
 */
@@ -42,7 +102,6 @@ p {
 
 /* Head paragraph of section header */
 .section-header h1{
-    color: #494949;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -59,3 +118,4 @@ p {
 	/* Color */
 	background-color: #2eb0ec;
 }
+/*#endregion*/
