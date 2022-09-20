@@ -72,3 +72,20 @@
     color: #3e3e3e; 
     margin-left: 30px;
 }
+
+/*
+    Switch button (e.g. for feedbacks)
+*/
+.button.switch {
+    color: #494949;
+    background-color: transparent;
+    padding: 10px 10px;
+
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.button.switch.disabled { color: #9ea1a1; }
+.button.switch:hover:not(.disabled) {
+    color: #479ee1;
+}
