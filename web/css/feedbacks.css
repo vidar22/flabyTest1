@@ -1,24 +1,37 @@
+/* Background and correct padding bottom */
 .feedbacks {
     background-image: url('../img/4_feedback/BG.png');
     padding-bottom: 100px;
 }
+
+/* Remove bottom margin */
 .feedbacks h2 { margin-bottom: 0px; }
+/* Feedback text style */
 p.feedback {
     font-size: 18px;
     padding: 0;
-    margin: 30px 45px;
+    margin: 45px 45px;
     /* Scroll, if feedback is out of bounds */
     height: 6em;
     padding-right: 1px;
     overflow-y: auto;
 }
 
+/* Feedbacks card container */
 .feedbacks-container {
+    position: relative;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+/* Feedback card style */
+.feedback-card,
+.feedback-card-near > *,
+.feedback-card-far > * { 
+    border-radius: 10px;
+}
 .feedback-card {
+    /* For center by text-align */
     display: inline-block;
     width: 730px;
     height: 350px;
@@ -28,22 +41,44 @@ p.feedback {
     border: 1px solid rgba(0,0,0,0.08);
 }
 
+.feedback-card-near,
+.feedback-card-far {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.feedback-card-near > *,
+.feedback-card-far > * {
+    display: inline-block;
+    filter: drop-shadow(0 0 19px rgba(0,0,0,0.11));
+    border-radius: 10px;
+}
+.feedback-card-near > * {
+    margin-top: 30px;
+    width: 790px;
+    height: 310px;
+    background-color: rgba(255,255,255,0.8);
+}
+.feedback-card-far > * {
+    /* For center by text-align */
+    margin-top: 60px;
+    width: 850px;
+    height: 270px;
+    background-color: rgba(255,255,255,0.6);
+}
 
+/* Feedback author's avatar style */
+.feedback-card img {
+    width: 110px;
+    height: 110px;
+    margin-top: -55px;
+}
+
+/* Align buttons center */
 .feedbacks-nav {
     display: flex;
     justify-content: center;
 }
 
-.button.switch {
-    color: #494949;
-    background-color: transparent;
-    padding: 10px 10px;
 
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: capitalize;
-}
-.button.switch.disabled { color: #9ea1a1; }
-.button.switch:hover:not(.disabled) {
-    color: #479ee1;
-}

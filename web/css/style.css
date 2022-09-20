@@ -45,6 +45,7 @@ p.after-h1 {
     color: #7c7c7c;
     font-weight: 500;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*#region ul and ul li*/
@@ -78,11 +79,22 @@ ul li:last-child { margin-bottom: 0; }
     Global half content style
 */
 /* Set size as half of parent */
-.half-content-r, .half-content-l{ width: 50%; }
+.half-content-r, .half-content-l { width: 50%; }
+.half-content-r.align-center, .half-content-l.align-center { text-align: center; }
 .half-content-r { float: right; }
 .half-content-l { float: left; }
+.half-content-l::after, .half-content-r:after { 
+    content: '';
+    display: table;
+    clear: both;
+}
 /* Set padding of half contents */
 .half-content-r > *, .half-content-l > * { margin: 0 15px;}
+.half-content-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 /*#endregion*/
 
 /*#region section-header*/
