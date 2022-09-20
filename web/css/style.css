@@ -5,7 +5,7 @@
 	text-decoration: none;
 	font-family: 'Raleway';
 }
-/* All backgrounds cannot be selected by user */
+/* All backgrounds cannot be selected by user and images */
 .background, img { user-select: none; }
 
 /* Inner content of all sections (+ header, footer) */
@@ -18,7 +18,7 @@
 h1 {
     color: #494949;
     font-size: 32px;
-    font-weight: 600;   
+    font-weight: 600;
 }
 /* Global h2 style */
 h2 {
@@ -93,10 +93,9 @@ ul li:last-child { margin-bottom: 0; }
 .section-header {
     /* Header text alignment */
     text-align: center;
-    /* Margin from top */
-    margin-top: 100px;
-    /* Margin from bottom */
-    margin-bottom: 15px;
+    /* Paddings */
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* Paragraph of section header */

@@ -20,7 +20,8 @@
     /* Be behind the body*/
     z-index: -1;
     /* Set background image */
-    background-image: url('../img/2_features/shape.png');
+    background-image: url('../img/2_features/shape-w-margin.png');
+    background-position: 200px -200px;
 }
 
 /* Container of iphone and ipad will be have half of parent */
