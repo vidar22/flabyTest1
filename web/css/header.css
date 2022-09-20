@@ -143,10 +143,6 @@ header .header-content .button {
 /*#region Background*/
 
 header > .background {
-    /* Stretch it to the full size of the parent (section)*/
-	position: absolute;
-	width: 100%;
-	height: 100%;
     /* Move backwards to all elements of section */
     z-index: -1;
     /* Set color here, because section color will cover this bg */

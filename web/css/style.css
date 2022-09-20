@@ -5,13 +5,25 @@
 	text-decoration: none;
 	font-family: 'Raleway';
 }
-/* All backgrounds cannot be selected by user and images */
+section {
+    position: relative;
+    overflow: hidden;
+}
+/* All backgrounds and images cannot be selected by user */
 .background, img { user-select: none; }
-
+/* Style all background blocks */
+.background {
+/* Absolute to the parent*/
+	position: absolute;
+/* Stretch it to the full size of the parent (section)*/
+	width: 100%;
+	height: 100%;
+}
 /* Inner content of all sections (+ header, footer) */
 .section-content {
 	margin: 0 250px;
     position: relative;
+    overflow: visible;
 }
 
 /* Global h1 style */
@@ -106,8 +118,8 @@ ul li:last-child { margin-bottom: 0; }
     /* Header text alignment */
     text-align: center;
     /* Paddings */
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 /* Paragraph of section header */
