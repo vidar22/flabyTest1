@@ -1,0 +1,26 @@
+/* Style flex container */
+.other-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+
+/* Style flex items */
+.other-services-container > * {
+    /* Main size of flex item */
+    flex-basis: 30%;
+    min-width: 300px;
+    margin: 0 15px;
+    margin-top: 100px;
+}
+
+/* Float image */
+.other-services-container .img-container {
+    float: left;
+    /* Inner margin */
+    padding: 0 10px;
+}
+
+/* Margin for image */
+.other-services-container .text-content { margin-left: 60px; }

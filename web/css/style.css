@@ -6,7 +6,7 @@
 	font-family: 'Raleway';
 }
 /* All backgrounds cannot be selected by user */
-.background { user-select: none; }
+.background, img { user-select: none; }
 
 /* Inner content of all sections (+ header, footer) */
 .section-content {
@@ -19,6 +19,13 @@ h1 {
     color: #494949;
     font-size: 32px;
     font-weight: 600;   
+}
+/* Global h2 style */
+h2 {
+    color: #494949;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
 }
 /* Global paragraph style */
 p, li {
