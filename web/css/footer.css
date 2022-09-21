@@ -1,0 +1,83 @@
+/* Correct margin of form */
+footer form {
+    margin-top: -50px;
+}
+
+/* Links block style */
+footer .footer-links {
+    display: flex;
+    align-items: center;
+    border-top: #dfdfdf 1px solid;
+    border-bottom: #dfdfdf 1px solid;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+/* Social links */
+footer .socials {
+    /* Use 20% of space for socials */
+    flex-basis: 20%;
+}
+
+/* #region Footer Navigation Links */
+/* Navigation bar style*/
+footer .nav-bar {
+    /* Use 80% of space for navigation */
+    flex-basis: 80%;
+    /* Organize nav links blocks */
+    display: flex;
+    justify-content: space-evenly;
+    /* Align center all texts in nav */
+    text-align: center;
+}
+
+/* Links block (list) */
+footer ul { 
+    /* Remove base list style */
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Style header of links block */
+footer nav .nav-header {
+    font-size: 20px;
+    color: #494949;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+/* Style link wrapper (list item of links block)*/
+footer nav ul li {
+    text-align: left;
+    /* List point */
+    background-image: none;
+    /*Padding for point*/
+    padding: 0;
+    /* Margin between items */
+    margin: 0;
+}
+/* #endregion */
+
+
+/* Style footer rights */
+footer .footer-rights {
+    /* To horizontal */
+    display: flex;
+    /* Make padding top/bottom */
+    padding: 30px 0;
+}
+
+/* Make hr in rights - vertical */
+footer .footer-rights hr {
+    /* Clear old border */
+    outline: none;
+    border-width: 0px;
+    /* Make new width for vertical border */
+    border-left-width: 1px;
+    /* Set new color for border */
+    border-color: #7c7c7c;
+    /* Make margin between items */
+    margin: 0 10px;
+}

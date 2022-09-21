@@ -10,13 +10,15 @@
 
 /*#endregion*/
 
-.price .pricing-plans-container {
+/* Flex container for organize plans space-evently */
+.pricing-plans-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 100px;
 }
 
+/* Plan wrapper with relative position for plan's growing */
 .pricing-plan-wrapper {
     margin: 20px 20px;
     min-width: 320px;

@@ -1,4 +1,19 @@
-.button
+/*
+    Global form style
+*/
+form {
+    text-align: center;
+}
+
+form > * {
+    margin: 30px 0;
+}
+
+/* #region Button */
+/*
+    Global button style
+*/
+button, .button
 {
     /* Center items (text of button) */
 	display: inline-flex;
@@ -25,18 +40,18 @@
 /*
     Main button
 */
-.button.main {
+button.main, .button.main {
     width: 150px;
     height: 50px;
     min-height: 50px;
     border-radius: 25px;
     background-color: #66d4f4;
 }
-.button.main.selected {
+button.main.selected, .button.main.selected {
     filter: drop-shadow(0px 10px 8px rgba(102,212,244,0.3));
 }
 /* Mouse over state */
-.button.main:hover {
+button.main:hover, .button.main:hover {
     background-color: #a0e4f8;
     filter: drop-shadow(0px 0px 8px rgba(102,212,244,1));
 }
@@ -44,12 +59,12 @@
 /*
     Blue button
 */
-.button.blue
+button.blue, .button.blue
 {
 	background: #479ee1;
 }
 /* Add animation for button blue */
-.button.blue:hover
+button.blue:hover, .button.blue:hover
 {
 	background: #6bbaf9;
 }
@@ -90,3 +105,55 @@
 .button.switch:hover:not(.disabled) {
     color: #479ee1;
 }
+
+form button.main {
+    width: 370px;
+    height: 75px;
+    border-radius: 37px;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+/* #endregion */
+
+/* #region Input */
+/*
+    Global input text style
+*/
+
+/* Main input style*/
+input {
+    text-align: center;
+    width: 370px;
+    height: 75px;
+    border-radius: 37px;
+    background-color: #f5fafa;
+    /* Remove base border style */
+    border-width: 0px;
+
+    /* Text style */
+    font-size: 14px;
+    color: #7c7c7c;
+    font-weight: 700;
+    text-align: center;
+}
+/* Watermark or placehold of text input */
+input::placeholder {
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+/* Input style when focus */
+input:focus {
+    background-color: #ffffff;
+    border: 1px solid rgba(0,0,0,0.03);
+    filter: drop-shadow(0px 8px 8px rgba(92,149,161,0.1));
+    /* Remove base outline */
+    outline: none;
+
+    /* Text style */
+    font-size: 14px;
+    color: #505050;
+}
+
+/* #endregion */
