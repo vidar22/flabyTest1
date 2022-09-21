@@ -149,3 +149,9 @@ ul li:last-child { margin-bottom: 0; }
 	background-color: #2eb0ec;
 }
 /*#endregion*/
+
+@media (min-width: 481px) and (max-width:1000px) {
+    .section-content {
+        margin: 0 20px;
+    }
+}

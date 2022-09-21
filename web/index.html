@@ -4,6 +4,7 @@
 	<head>
 		<title>Flaby</title>
 		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=.5">
 		<link rel="stylesheet" href="css/fonts.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
 		<link rel="stylesheet" href="css/forms.css"/>
@@ -380,9 +381,9 @@
 				<!-- Subscribe form -->
 				<form>
 					<!-- Name Surname text input group -->
-					<div><input type="text" placeholder="John Doe"/></div>
+					<div><input type="text" name="name" placeholder="John Doe" required/></div>
 					<!-- Email text input group -->
-					<div><input type="email" placeholder="example@gmail.com"/></div>
+					<div><input type="email" name="email" placeholder="example@gmail.com" required/></div>
 					<!-- Submit subscribe button -->
 					<div><button type="submit" class="main selected">Subscribe</button></div>
 				</form>
@@ -463,5 +464,19 @@
 				
 			</div>
 		</footer>
+
+		<script>
+
+			var subscribeForm = document.forms[0];
+
+			subscribeForm.onsubmit = function() 
+			{
+				var name = subscribeForm.elements['name'].value;
+				var email = subscribeForm.elements['email'].value;
+				
+				alert(`Thank you ${name} for subscribing! You will get information on your ${email} email)`);
+			}
+
+		</script>
 	</body>
 </html>
