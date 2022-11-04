@@ -1,0 +1,98 @@
+.reviews{
+	height: 750px;
+
+}
+.header-reviews-section{
+	padding-top: 55px;
+
+}
+.reviews-content{
+	width: 100%;
+	height: 450px;
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.reviews1{
+	position: absolute;
+	width: 850px;
+	height: 260px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px #aaaa;
+	opacity: 25%;
+
+}
+.reviews2{
+	position: absolute;
+	width: 790px;
+	height: 310px;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px #aaaa;
+	opacity: 75%;
+
+}
+.reviews3{
+	position: absolute;
+	width: 730px;
+	height: 350px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px #aaaa;
+
+}
+.img-autor3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -50px;
+
+}
+.reviews3 h5, h6 {
+	margin: 0px;
+
+}
+.reviews3 p{
+	width: 575px;
+	height: 110px;
+	text-align: center;
+	margin: 45px 80px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7c7c7c;
+	font-weight: 500;
+	font-family: "Raleway";
+
+}
+.navigationbutton{
+	display: flex;
+	justify-content: center;
+
+}
+.navigationbutton a{
+	width: 100%;
+	height: 20px;
+	text-decoration: none;
+	color: #494949;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
+	
+}
+.previous{
+	pointer-events: none;
+	margin-right: 15px;
+
+}
+.next{
+	margin-left: 15px;
+
+}

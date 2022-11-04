@@ -1,26 +1,37 @@
 html body {
+	font-family:'Raleway';
 	width: 100%;
 	height: 100%;
+	margin: 0;
+
 }
 h1{
 	font-size: 40px;
 	line-height: 28px;
 	color: #fffefe;
-	font-family: museo Moderno;
+	font-family: MuseoSlab;
+	word-spacing: 10px;
+	text-transform: uppercase;
+
 }
 h2{
 	font-size: 24px;
 	letter-spacing: 2px;
+	text-transform: uppercase;
 	color: #494949;
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+	margin: 0px;
+
 }
 h3{
 	font-size: 22px;
 	color: #494949;
 	font-weight: 600;
 	font-family: raleway;
+	margin: 0px;
+
 }
 h4{
 	font-size: 18px;
@@ -29,292 +40,42 @@ h4{
 	font-weight: 400;
 	font-family: roboto slab;
 	text-align: center;
+	margin: 0px;
+
 }
 h5{
-	width: 220px;
-	height: 29px;
 	font-size: 20px;
 	line-height: 30px;
 	color: #494949;
 	font-weight: 700;
 	font-family: raleway;
 	text-align: center;
+	margin: 0px;
+	
 }
 h6{
-	width: 220px;
-	height: 29px;
 	font-size: 15px;
 	line-height: 30px;
 	color: #7c7c7c;
 	font-weight: 500;
 	font-family: raleway;
 	text-align: center;
-}
-
-/*<!-- Head Section -->*/
-
-.head	{
-
- 	background: url(../img/0header/bgheader.png) center  center no-repeat;
-	background-size: 100% 100%;
+	margin: 0px;
 
 }
-
-.positionmenu{
-	position: relative;
-
-}
-
-.logo{
-	display: inline-block;
-	width: 168px;
-	height: 51px;
-	margin: 45px 0px 36px 245px;
+.dividorhorizontal{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28px;
+	height: 1px;
+	color: #2eafeb;
+	border: 1px solid;
+	background-color: #2eafeb;
 
 }
-
-.menu {
-	display: inline-block;
-	font-size: 17px;
-	font-weight: 600;
-	font-family: raleway;
-	word-spacing: 40px;
-	text-decoration: none;
-	height: 12px;
-	margin-left: 260px;
-	margin-right: 35px;
-	position: absolute;
-	margin-top: 65px;
+.innner-content{
+	margin-left: 100px;
+	margin-right: 100px;
 
 }
-.none{
-	color: #ffffff;
-	text-decoration: none;
-
-}
-
-.buttonlogin{
-	display: inline-block;
-	width: 111px;
-	height: 56px;
-	position: absolute;
-	margin-top: 42px;
-	margin-left: 890px;
-
-}
-
-.underline{
-	width: inherit;
-	height: 2px;
-	background-color: white;
-	width: 1175px;
-	margin-left: 245px;
-	margin-top: 35px
-}
-
-.headerh1{
-	margin-top: 265px;
-	margin-left: 245px;
-}
-
-.headertext{
-	display: inline-block;
-	width: 540px;
-	height: 116px;
-	font-size: 26px;
-	line-height: 40px;
-	color: #fefefe;
-	font-weight: 500;
-	font-family: raleway;
-	margin-top: 265px;
-	margin-left: 245px;
-}
-
-.googleheader{
-	display: inline-block;
-	margin-top: 70px;
-	margin-left: 245px;
-
-}
-
-.lernmoreheader{
-	display: inline-block;
-	margin-top: 70px;
-	margin-left: 25px;
-
-}
-
- /*<!-- Services Section -->*/
-
-.servicesh{
-
-
-}
-
-.nameourservices{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-.textourservices{
-	width: 309px;
-	height: 250px;/*Здесь была задана величина 82PX!!!*/
-	font-size: 14px;
-	line-height: 26px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.textcustomization{
-	width: 540px;
-	height: 82px;
-	font-size: 20px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.section-UC-h3{
-	font-size: 22px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.section-UC-h2{
-	font-size: 32px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.section-UC-textLi{
-	width: 540px;
-	height: 12px;
-	font-size: 14px;
-	line-height: 30px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.otherservices-div3{
-	font-size: 18px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.otherservices-div4{
-	width: 261px;
-height: 113px;
-font-size: 14px;
-line-height: 26px;
-color: #7c7c7c;
-font-weight: 500;
-font-family: raleway;
-}
-.textsectionG-K-A{
-	width: 573px;
-	height: 109px;
-	font-size: 18px;
-	line-height: 30px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.sectionGR-h2{
-	font-size: 32px;
-	color: #494949;
-	font-weight: 600;
-	font-family: raleway;
-}
-.GR-p1{
-	width: 463px;
-	height: 82px;
-	font-size: 20px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.GR-p2{
-	width: 445px;
-	height: 113px;
-	font-size: 14px;
-	line-height: 26px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.sectinPP-ul1{
-	font-size: 16px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-	text-align: center;
-}
-.li-fs16{
-	font-size: 16px;
-	line-height: 35px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.li-fs14{
-	font-size: 14px;
-	line-height: 32px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-	text-align: center;
-}
-.footer-p{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.footersection-ul1{
-	font-size: 20px;
-	color: #494949;
-	font-weight: 700;
-	font-family: raleway;
-}
-.footersection-ul2{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-.Copyright{
-	font-size: 14px;
-	line-height: 28px;
-	color: #7c7c7c;
-	font-weight: 500;
-	font-family: raleway;
-}
-
-
-
-
-
-
-
-
-
-
-.button-blue
-{
-	display: inline-block;
-	color: white;
-	background: blue;
-	border-style: solid;
-	border-radius: 5px;
-	width: 100px;
-	height: 100px;
-}
-

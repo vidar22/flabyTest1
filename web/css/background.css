@@ -1,0 +1,36 @@
+/*<!-- Head Section -->*/
+
+header	{
+
+	background-image: url('../img/0header/headphones.png'),url('../img/0header/pencils.png'),url('../img/0header/earphones.png'),url('../img/0header/bgheader.png');
+	background-repeat: no-repeat;
+	background-position:0 0, 0 95%, 100% 65% ;
+	background-size: 220px 365px, auto, auto, 100%;
+}
+
+.features{
+	background-image: url('../img/2UnlimitedCustomizationFeatures/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.reviews{
+	background-image: url('../img/4reviews/bg.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.features{
+
+	background-image: url('../img/2UnlimitedCustomizationFeatures/phone.png'),url('../img/2UnlimitedCustomizationFeatures/bg.png');
+	background-repeat: no-repeat;
+	background-position:0 50%;
+	background-size: 665px 550px, 100%;
+
+}
+.price{
+	background-color: #F4FBFC;
+	background-image: url('../img/6price/bg.png');
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-size:100%;
+}
