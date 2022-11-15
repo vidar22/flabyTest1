@@ -38,6 +38,13 @@ header{
 	margin-top: 55px
 
 }
+.buttonlogin:hover {
+	box-shadow: 0 0 5px #4ba2e6;
+
+}
+.buttonlogin:visited{
+	box-shadow: 0 0 5px #5eb4f8;
+}
 .underline{
 	height: 2px;
 	background-color: white;
